@@ -1,0 +1,49 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Users\\Theo\\AppData\\Local\\.meteor\\packages\\meteor-tool\\1.4.2_3\\mt-os.windows.x86_32\\dev_bundle\\bin\\node.exe',
+1 verbose cli   'C:\\Users\\Theo\\AppData\\Local\\.meteor\\packages\\meteor-tool\\1.4.2_3\\mt-os.windows.x86_32\\dev_bundle\\lib\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'test' ]
+2 info using npm@3.10.9
+3 info using node@v4.6.2
+4 verbose run-script [ 'pretest', 'test', 'posttest' ]
+5 info lifecycle short-lnk@~pretest: short-lnk@
+6 silly lifecycle short-lnk@~pretest: no script for pretest, continuing
+7 info lifecycle short-lnk@~test: short-lnk@
+8 verbose lifecycle short-lnk@~test: unsafe-perm in lifecycle true
+9 verbose lifecycle short-lnk@~test: PATH: C:\Users\Theo\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\lib\node_modules\npm\bin\node-gyp-bin;C:\Users\Theo\Desktop\meteor-projects\notes\node_modules\.bin;C:\Users\Theo\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\bin;C:\Users\Theo\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32;C:\Users\Theo\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\lib\node_modules\.bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Embarcadero\Studio\19.0\bin;C:\Users\Public\Documents\Embarcadero\Studio\19.0\Bpl;C:\Program Files (x86)\Embarcadero\Studio\19.0\bin64;C:\Users\Public\Documents\Embarcadero\Studio\19.0\Bpl\Win64;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\ProgramData\chocolatey\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\Git\cmd;C:\Users\Theo\AppData\Local\Microsoft\WindowsApps;C:\Users\Theo\AppData\Local\.meteor;;C:\Users\Theo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\heroku\bin
+10 verbose lifecycle short-lnk@~test: CWD: C:\Users\Theo\Desktop\meteor-projects\notes
+11 silly lifecycle short-lnk@~test: Args: [ '/d /s /c',
+11 silly lifecycle   'meteor test --driver-package=practicalmeteor:mocha' ]
+12 silly lifecycle short-lnk@~test: Returned: code: 1  signal: null
+13 info lifecycle short-lnk@~test: Failed to exec test script
+14 verbose stack Error: short-lnk@ test: `meteor test --driver-package=practicalmeteor:mocha`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (C:\Users\Theo\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\lib\node_modules\npm\lib\utils\lifecycle.js:255:16)
+14 verbose stack     at emitTwo (events.js:87:13)
+14 verbose stack     at EventEmitter.emit (events.js:172:7)
+14 verbose stack     at ChildProcess.<anonymous> (C:\Users\Theo\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\lib\node_modules\npm\lib\utils\spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:87:13)
+14 verbose stack     at ChildProcess.emit (events.js:172:7)
+14 verbose stack     at maybeClose (internal/child_process.js:854:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:222:5)
+15 verbose pkgid short-lnk@
+16 verbose cwd C:\Users\Theo\Desktop\meteor-projects\notes
+17 error Windows_NT 10.0.17763
+18 error argv "C:\\Users\\Theo\\AppData\\Local\\.meteor\\packages\\meteor-tool\\1.4.2_3\\mt-os.windows.x86_32\\dev_bundle\\bin\\node.exe" "C:\\Users\\Theo\\AppData\\Local\\.meteor\\packages\\meteor-tool\\1.4.2_3\\mt-os.windows.x86_32\\dev_bundle\\lib\\node_modules\\npm\\bin\\npm-cli.js" "run" "test"
+19 error node v4.6.2
+20 error npm  v3.10.9
+21 error code ELIFECYCLE
+22 error short-lnk@ test: `meteor test --driver-package=practicalmeteor:mocha`
+22 error Exit status 1
+23 error Failed at the short-lnk@ test script 'meteor test --driver-package=practicalmeteor:mocha'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the short-lnk package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     meteor test --driver-package=practicalmeteor:mocha
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs short-lnk
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls short-lnk
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
